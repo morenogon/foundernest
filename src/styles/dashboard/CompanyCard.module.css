@@ -1,0 +1,94 @@
+.card {
+  width: 800px;
+
+  padding: 16px;
+  margin-bottom: 32px;
+
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.nameContainer {
+  margin-left: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  margin-bottom: 4px;
+}
+
+.badge {
+  margin-right: 16px;
+  margin-top: 8px;
+}
+.badge svg {
+  color: var(--primary-grey-color);
+}
+
+.badge span {
+  background-color: var(--primary-grey-color);
+}
+
+.infoSection {
+  margin-top: 32px;
+}
+
+.titleSection {
+  margin-top: 16px;
+  margin-bottom: 4px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.titleSection h4 {
+  margin-left: 8px;
+}
+
+.contentSection {
+  margin-top: 4px;
+}
+
+.secondSection {
+  margin-top: 16px;
+  margin-bottom: 32px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+button {
+  border-color: var(--primary-blue-color) !important;
+  color: var(--primary-blue-color) !important;
+  font-weight: 600 !important;
+}
+
+button svg {
+  color: var(--primary-blue-color) !important;
+  margin-right: 8px !important;
+}

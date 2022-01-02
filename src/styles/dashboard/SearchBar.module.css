@@ -1,0 +1,11 @@
+.searchBar {
+  padding: 20px 40px 0px 40px;
+}
+
+.searchInput {
+  padding: 8px 16px;
+  width: 300px;
+
+  border-radius: 16px;
+  border: 2px solid var(--primary-blue-color);
+}
