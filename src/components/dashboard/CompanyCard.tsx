@@ -84,7 +84,11 @@ const CompanyCard = ({
             </div>
             <div>
               {operating_locations.map((location) => {
-                return <p className={styles.contentSection}>{location}</p>;
+                return (
+                  <p className={styles.contentSection} key={location}>
+                    {location}
+                  </p>
+                );
               })}
             </div>
           </div>
@@ -95,7 +99,11 @@ const CompanyCard = ({
             </div>
             <div>
               {headquarters.map((headquarter) => {
-                return <p className={styles.contentSection}>{headquarter}</p>;
+                return (
+                  <p className={styles.contentSection} key={headquarter}>
+                    {headquarter}
+                  </p>
+                );
               })}
             </div>
           </div>
@@ -106,7 +114,11 @@ const CompanyCard = ({
             </div>
             <div>
               {sectors.map((sector) => {
-                return <p className={styles.contentSection}>{sector}</p>;
+                return (
+                  <p className={styles.contentSection} key={sector}>
+                    {sector}
+                  </p>
+                );
               })}
             </div>
           </div>

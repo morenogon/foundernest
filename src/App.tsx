@@ -33,8 +33,6 @@ const App = () => {
     const interestingCompany = searchCompanyById(id, companies);
 
     setCompanies(filteredCompanies);
-    // todo uncomment
-    // sessionStorage.setItem('companies', JSON.stringify(filteredCompanies));
 
     if (interestingCompany) {
       interestingCompany.interested = true;
@@ -71,7 +69,7 @@ const App = () => {
       >
         <CompaniesDashboard />
         <ToastContainer
-          position="bottom-right"
+          position="top-right"
           autoClose={10000}
           hideProgressBar={false}
           newestOnTop={false}
